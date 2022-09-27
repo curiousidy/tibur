@@ -1,0 +1,7 @@
+{
+  "name": "angrybirds",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
