@@ -15,6 +15,19 @@ const routes: Routes = [
     path: 'my-birds',
     loadChildren: () => import('./my-birds/my-birds.module').then( m => m.MyBirdsPageModule)
   },
+  {
+    path: 'create-bird',
+    loadChildren: () => import('./create-bird/create-bird.module').then( m => m.CreateBirdPageModule)
+  },
+  
+  {
+    path: 'update-bird',
+    loadChildren: () => import('./update-bird/update-bird.module').then( m => m.UpdateBirdPageModule)
+  },
+  {
+    path: 'delete-and-list-bird',
+    loadChildren: () => import('./delete-and-list-bird/delete-and-list-bird.module').then( m => m.DeleteAndListBirdPageModule)
+  },
 ];
 
 @NgModule({
