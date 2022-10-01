@@ -2,8 +2,8 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'angrybirds',
-  webDir: 'www',
+  appName: 'schedule-app',
+  webDir: 'build',
   bundledWebRuntime: false
 };
 
